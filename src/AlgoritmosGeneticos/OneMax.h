@@ -62,7 +62,7 @@ void showPopulation(){
 }
 
 /**
- * Suma
+ * Sumatoria
  */
 int getAverage(vector<int> single){
 	int sum = 0;
