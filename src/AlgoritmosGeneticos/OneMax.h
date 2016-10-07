@@ -11,6 +11,11 @@
 
 /*OneMax*/
 
+/**
+ * Taken from: https://gist.github.com/marcoscastro/ffbcb9c672dc5413df83
+ * @Author: Marco Castro
+ */
+
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
