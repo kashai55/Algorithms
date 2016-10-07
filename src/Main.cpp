@@ -14,6 +14,7 @@
 #include "DivideAndConquer/Karatsuba.h"
 
 #include "AlgoritmosGeneticos/OneMax.h"
+#include "AlgoritmosGeneticos/Sphere.h"
 
 
 #include <iostream>
@@ -74,6 +75,10 @@ int main(int argc, char *argv[]) {
 	cout << "Funcion OneMax: " << endl;
 	oneMax();
 
+
+	cout << "--------------------------------" << endl;
+	cout << "Funcion Sphere: " << endl;
+	AG();
 
 
 
