@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
 	printArray(arr, n);
 	cout << "--------------------------------" << endl;
 
-	cout << "Funcion Multiply: multiply(101111,101011)" << endl;
+	cout << "Función Multiply: multiply(101111,101011)" << endl;
 	cout << multiply("101111","101011") << endl;
 	cout << "--------------------------------" << endl;
 
@@ -72,12 +72,12 @@ int main(int argc, char *argv[]) {
 	cout << "================================" << endl;
 
 	cout << "***Algoritmos Genéticos***" << endl;
-	cout << "Funcion OneMax: " << endl;
+	cout << "Función OneMax: " << endl;
 	oneMax();
 
 
 	cout << "--------------------------------" << endl;
-	cout << "Funcion Sphere: " << endl;
+	cout << "Función Sphere: " << endl;
 	AG();
 
 
