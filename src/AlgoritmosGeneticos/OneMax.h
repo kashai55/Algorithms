@@ -29,7 +29,7 @@ int size_tor = 50; /*size of tor*/
 int gen = 500; /*size of generations*/
 double prob_mut = 0.2; /* prob. of mutation */
 double prob_cross = 0.7; /*prob. of crossing */
-vector <vector<int>> population; /*vectors full of vectors*/
+vector< vector <int> > population; /*vectors full of vectors*/
 
 /*Prototypes*/
 void createPopulation();

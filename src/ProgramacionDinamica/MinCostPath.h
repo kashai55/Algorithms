@@ -14,6 +14,10 @@
 #define R 3
 #define C 3
 
+/**
+ * taken from: http://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/
+ */
+
 int min(int x, int y, int z);
 
 int minCost(int cost[R][C], int m, int n)
