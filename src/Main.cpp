@@ -21,19 +21,6 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-	cout << "================================" << endl;
-	cout << "***Programación Dinámica***" << endl;
-
-	cout << "Función MinCostPath: minCost(cost,2,2) "<< endl;
-	int cost[3][3] = { {1, 2, 3},
-					  {4, 8, 2},
-					  {1, 5, 3} };
-	cout << minCost(cost, 2, 2) <<endl;
-
-	cout << "--------------------------------" << endl;
-	cout << "Función Fibonacci: fibonacci(7)" << endl;
-	cout << fibonacci(7)<<endl;
-	cout << "--------------------------------" << endl;
 
 	cout << "================================" << endl;
 
@@ -43,19 +30,19 @@ int main(int argc, char *argv[]) {
 	solveNQ();
 	cout << "--------------------------------" << endl;
 
-
 	cout << "Función: Laberinto" << endl;
 	int maze[N][N]  =  {
 					   {1, 0, 0, 0},
-	        		   {1, 1, 0, 1},
-	                   {0, 1, 0, 0},
-	                   {1, 1, 1, 1}
-	 };
-    solveMaze(maze);
-    cout << "--------------------------------" << endl;
+		        	   {1, 1, 1, 1},
+		               {0, 1, 1, 1},
+		               {1, 1, 0, 1}
+	};
+
+	solveMaze(maze);
+	cout << "--------------------------------" << endl;
+
 
 	cout << "================================" << endl;
-
 
 	cout << "***Divide y Vencerás***" << endl;
 
@@ -71,6 +58,25 @@ int main(int argc, char *argv[]) {
 	cout << "Función Multiply: multiply(101111,101011)" << endl;
 	cout << multiply("101111","101011") << endl;
 	cout << "--------------------------------" << endl;
+
+
+	cout << "================================" << endl;
+
+
+	cout << "***Programación Dinámica***" << endl;
+
+	cout << "Función MinCostPath: minCost(cost,2,2) "<< endl;
+	int cost[3][3] = { {1, 2, 3},
+					  {4, 8, 2},
+					  {1, 5, 3} };
+	cout << minCost(cost, 2, 2) <<endl;
+
+	cout << "--------------------------------" << endl;
+	cout << "Función Fibonacci: fibonacci(7)" << endl;
+	cout << fibonacci(7)<<endl;
+	cout << "--------------------------------" << endl;
+
+
 
 
 	cout << "================================" << endl;

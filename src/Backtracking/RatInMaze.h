@@ -67,6 +67,7 @@ bool solveMaze(int maze[N][N])
 /* A recursive utility function to solve Maze problem */
 bool solveMazeUtil(int maze[N][N], int x, int y, int sol[N][N])
 {
+
     // if (x,y is goal) return true
     if(x == N-1 && y == N-1)
     {
@@ -77,6 +78,11 @@ bool solveMazeUtil(int maze[N][N], int x, int y, int sol[N][N])
     // Check if maze[x][y] is valid
     if(isSafe(maze, x, y) == true)
     {
+
+    	printSolution(sol);
+		printf("\n");
+		printf("\n");
+
         // mark x,y as part of solution path
         sol[x][y] = 1;
 
@@ -91,9 +97,16 @@ bool solveMazeUtil(int maze[N][N], int x, int y, int sol[N][N])
 
         /* If none of the above movements work then BACKTRACK:
             unmark x,y as part of solution path */
+
         sol[x][y] = 0;
+
+        printSolution(sol);
+		printf("\n");
+		printf("\n");
         return false;
     }
+
+
 
     return false;
 }
